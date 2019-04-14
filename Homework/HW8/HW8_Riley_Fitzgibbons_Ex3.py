@@ -10,8 +10,7 @@ import requests
 import json
 
 # Set variables
-apiKey = '2e541dbb924524ad0519bc87bd1812f8' 
-#apiKey = open('Util/apiKey.txt', 'r') # need to set you own apiKey
+apiKey = open('Util/apiKey.txt', 'r') # need to set you own apiKey
 cityID = '5417598' # For Colorado Springs
 api_OpenWeather = 'http://api.openweathermap.org/data/2.5/forecast?id='
 url = api_OpenWeather + cityID + '&units=imperial&APPID=' + apiKey
